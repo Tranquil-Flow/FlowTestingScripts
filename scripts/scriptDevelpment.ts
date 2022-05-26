@@ -1,11 +1,13 @@
 import { expect } from "chai";
 import { ethers } from "hardhat";
 
-// setup 5 addr
 
-// import DEX
+// import DEX router
 // import token
-// import backing token (ETH)
+// import backing token (USDC)
+
+// setup 10 addr
+// give each addr 100000 tokens so they can all sell without running out (more elegant way?)
 
 ////////////////// BATCHES //////////////////
 
@@ -21,6 +23,7 @@ import { ethers } from "hardhat";
 // buy transaction code
 //    buyValue
 // sell transaction code
+//    sellValue
 
 // eleven types of batches 0 = all buy, 10 = all sell, 5 = half buy, half sell
 
